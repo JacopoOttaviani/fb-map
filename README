@@ -1,6 +1,9 @@
 fb-map.py, v0.1
-A python script which creates a dot file of your facebook friends mutual friendships graph. Based on facebook API.
-You can go multithreading to gain more speed, but you may risk to get banned by fb. Default is mono-threading. Set threadsN variable to add more threads. You could need to sleep after an API request (set the sleeping value for that).
+A python script which creates a dot file of your facebook friends mutual friendships graph. 
+Based on facebook API.
+You can go multithreading to gain more speed, but you may risk to get banned by fb. 
+Default is mono-threading. Set threadsN variable to add more threads. 
+You could need to sleep after an API request (set the sleeping value for that).
 
 In order to use fb-map, you need:
 1. NetworkX, http://networkx.lanl.gov
@@ -10,6 +13,7 @@ In order to use fb-map, you need:
 --- USAGE: ---
 $ python fb-map.py
 
-then login in facebook and press enter. After that, many browser windows will popup (depending on how many errors raise and how many threads you're running).
+then login in facebook and press enter. After that, many browser windows will popup 
+(depending on how many errors raise and how many threads you're running).
 
 Have fun and if you have any feedback just drop me a line.
